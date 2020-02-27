@@ -1,0 +1,18 @@
+<div class="container">
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" id="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+    <button type="button" (click)="onSubmit()" class="btn btn-primary">Submit</button>
+  </form>
+
+  <form #form id="formid" name="formid" method="post">
+    <input type="hidden" id="value1" name="value1" value=""/>
+    <input type="hidden" id="value2" name="value2" value=""/>
+ </form>
+</div>
